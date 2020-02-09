@@ -4,7 +4,7 @@
 
 #### src
 
-![image](url)
+![image](https://github.com/ZeroShiro/ele-app/blob/master/src/assets/src.png)
 
 ## 2.技术实现
 
