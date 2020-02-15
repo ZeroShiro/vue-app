@@ -6,7 +6,7 @@
 
 ## 2.技术实现
 
-- Vue Vue-Cli3 Vuex Vue-Router 组件化模块化开发
+- Vue Vue-Router Vuex VueCli3 axios 组件化模块化开发
 - Mint UI 移动端组件库
 - better-scroll 移动端滑动组件
 - 高德地图 jsapi 应用
