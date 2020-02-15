@@ -10,7 +10,7 @@
 - Mint UI 移动端组件库
 - better-scroll 移动端滑动组件
 - 高德地图 jsapi 应用
-- mockjs 实现曾删改 模拟前后端分离开发
+- mockjs 实现用户地址增删改
 - es6 语法
 - 移动端 flex 弹性布局
 
