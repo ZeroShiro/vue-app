@@ -25,7 +25,7 @@
         </div>
       </div>
       <div class="order-card-bottom">
-        <button class="cardbutton" @click="$router.push('/shop')">再来一单</button>
+        <button class="cardbutton" @click="OneMore(order)">再来一单</button>
       </div>
     </div>
     <div v-if="show" class="order-off">
@@ -65,6 +65,11 @@ export default {
       this.$axios(`/api/user/orders/`).then(res => {
         this.orderlist = res.data.orderlist;
       });
+    },
+    OneMore(item) {
+      let data = JSON.stringify(item.shopData);
+      localStorage.setItem("shopdata", data);
+      this.$router.push("/shop");
     }
   }
 };
