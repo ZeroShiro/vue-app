@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <div v-if="flag">
+    <template v-if="flag">
       <router-view />
-    </div>
+    </template>
     <div v-else>
       <h2 style="font-size:18px;">请使用移动端打开页面</h2>
     </div>
